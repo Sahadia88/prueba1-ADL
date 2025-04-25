@@ -7,7 +7,7 @@ nav{
 }
 
 header{
-    background-image: url("/assets/imgs/bg-trabajos.png");
+    background-image: url(./../imgs/bg-trabajos.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
