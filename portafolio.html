@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahadia-Portafolio</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!-- estilos css -->
+     <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+<!-- inicio navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="./assets/imgs/logo-sahadia.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-center">
+      SAHADIA
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+        <a class="nav-link" href="/portafolio.html">Portafolio</a>
+        <a class="nav-link" href="#">Contacto</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- fin navbar -->
+
+<!-- inicio header -->
+<header class="text-light text-center py-5">
+  <div class="container d-flex flex-column justify-content-center align-items-center text-center">
+    <div class="col-12 col-md-8">
+        <h1 class="display-1 fw-bold my-5">
+            PORTAFOLIO
+        </h1>
+        <h2 class="my-5">
+          <strong>Portafolio</strong><br>
+          Desafíos realizados durante primer módulo del bootcamp <br>
+          de Academia Desafío Latam
+        </h2>
+    </div>
+  </div>
+</header>
+<!-- fin header -->
+
+    <!-- trabajos -->
+    <div class="card mx-5 my-5">
+      <img src="/assets/imgs/prueba1 portfolio-01.png" class="card-img-top" alt="Desafío 1, html">
+      <div class="card-body bg-warning-subtle mt-2">
+        <h5 class="card-title"><strong>Desafío n°1 - Introducción al desarrollo web</strong></h5>
+        <p class="card-text">Objetivo: Realizar mi Curriculum Vitae utilizando código HTML.</p>
+      </div>
+    </div>
+
+    <div class="card mx-5 mb-5">
+      <img src="/assets/imgs/prueba1 portfolio-02.png" class="card-img-top" alt="Desafío 2, css">
+      <div class="card-body bg-warning-subtle mt-2">
+        <h5 class="card-title"><strong>Desafío n°2 - Introducción a CSS</strong></h5>
+        <p class="card-text">Objetivo: Construir una landing page utilizando CSS mediante hojas de estilo.</p>
+      </div>
+    </div>
+    
+    <div class="card mx-5 mb-5">
+      <img src="/assets/imgs/prueba1 portfolio-03.png" class="card-img-top" alt="Desafío 3, flex">
+      <div class="card-body bg-warning-subtle mt-2">
+        <h5 class="card-title"><strong>Desafío n°3 - Alineando contenido con Flex</strong></h5>
+        <p class="card-text">Objetivo: validar nuestros conocimientos de posicionamiento en CSS, utilizando flex.</p>
+      </div>
+    </div>
+
+    <div class="card mx-5 mb-5">
+      <img src="/assets/imgs/prueba1 portfolio-04.png" class="card-img-top" alt="Desafío 4, bootstrap">
+      <div class="card-body bg-warning-subtle mt-2">
+        <h5 class="card-title"><strong>Desafío n°4 - Bootstrap</strong></h5>
+        <p class="card-text">Objetivo: Implementar sistema de grillas para lograr una landing page responsiva.</p>
+      </div>
+    </div>
+
+    <div class="card mx-5 mb-5">
+      <img src="/assets/imgs/prueba1 portfolio-05.png" class="card-img-top" alt="Desafío 5, terminal, hit, hithub">
+      <div class="card-body bg-warning-subtle mt-2">
+        <h5 class="card-title"><strong>Desafío n°4 - terminal, hit, hithub</strong></h5>
+        <p class="card-text">Objetivo:  aplicar las etapas del versionamiento de GIT, para mantener un repositorio de versiones, y el procedimiento de subida del código versionado mediante una conexión SSH.</p>
+      </div>
+    </div>
+    <!-- fin trabajos -->
+
+    <!-- inicio contacto -->
+    <section id="Contacto" class="container my-5">
+      <h2 class="display-4 fw-bold text-center my-4 text-warning">¡Hablemos!</h2>
+      <p class="text-center my-4 d-none d-md-block">Estoy disponible para resolver cualquier duda, conversar sobre proyectos o colaboraciones. No dudes en escribirme, <br>
+        <strong>¡Estaré encantada de leerte!</strong></p>
+
+      <form>
+          <div class="form-group mb-4">
+              <label class="mb-2">Nombre</label>
+              <input class="form-control" placeholder="Nombre">
+          </div>
+
+          <div class="form-group mb-4">
+              <label class="mb-2">Correo electrónico</label>
+              <input class="form-control" placeholder="Correo electrónico" />
+          </div>
+
+          <div class="form-group">
+              <label class="mb-2">Mensaje</label>
+              <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+          </div>
+
+          <div class="my-3 text-end">
+              <button class="btn btn-warning text-light">Enviar</button>
+          </div>
+      </form>
+  </section>
+  <!-- fin contacto -->
+
+  <!-- inicio footer -->
+  <footer class="my-5 container-fluid d-flex flex-column justify-content-center text-center">
+    <p>Sahadia Yusari 2025 - Todos los derechos reservados</p>
+  </footer>
+  <!-- fin footer -->
+
+
+
+    <!-- fontawesome script -->
+    <script src="https://kit.fontawesome.com/7553c5cca5.js" crossorigin="anonymous"></script>
+
+    <!-- boostrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
